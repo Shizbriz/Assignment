@@ -1,0 +1,228 @@
+@font-face{
+    font-family: 'big';
+    src: url(../DenseLetters-nRgDO.otf);
+}
+@font-face{
+    font-family: 'curl';
+    src: url(../EnjelinaDemo-JRJBj.otf);
+}
+@font-face{
+    font-family: 'write';
+    src: url(../TheHeartOfEverythingDemo-KRdD.ttf);
+}
+.beginning{
+    background-image: url(../images/background.jpg);
+    min-height: 42em;
+}
+.navbar-brand{
+   margin-right: 350px;
+}
+.navbar-nav a{
+    color: wheat;
+    font-family: 'write';
+    font-size: 20px;
+    text-shadow: black 3px 3px 5px;
+}
+.dropdown-menu{
+    background-color: rgb(187, 202, 172, 0.3);
+
+}
+.close{
+    display: none;
+}
+.dropdown-menu a{
+    color:black;
+    text-shadow: rgb(131, 47, 2, 0.9) 3px 3px 5px;
+    
+}
+a:hover{
+    color: rgb(131, 47, 2, 0.9);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .bar{
+      color: wheat;
+  }
+  .closebtn{
+      display: none;
+  }
+  
+    header{
+     margin-top: 300px;
+     text-align: center;
+     color: wheat;
+     text-shadow: black 3px 3px 5px;
+    }
+h1{
+    font-size: 50px;
+    font-family: 'big';
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'curl';
+    font-weight: 500;
+}
+
+.button{
+    background-color: rgb(131, 47, 2, 0.9);
+    border-radius: 6px;
+    box-shadow: black 3px 3px 5px;
+   width: 12em;
+   height: 2em;
+    padding: 5px 10px;
+    border: 0;
+}
+.button p{
+    color: wheat;
+    text-shadow: black 1px 1px 3px;
+}
+.searchterm{
+    border-radius: 6px;
+    box-shadow: black 3px 3px 5px;
+   width: 12em;
+   height: 2em;
+    padding: 5px 10px;
+    border: 0;
+    margin-right: 5px;
+} 
+
+.rest{
+    background-color: rgb(168, 181, 102, 0.5);
+}
+.nhead, .why{
+    margin: 0 20px 0 20px;
+}
+h2 {
+    padding-top: 3em;
+    text-align: center;
+    font-family: 'big';
+    color: wheat;
+    text-shadow: black 3px 3px 5px;
+}
+.pictures, .festivals, .why, .tips{
+    display: flex;
+    padding-top: 1em;
+    justify-content: space-between;
+}
+.pic{
+    position: relative;
+    margin: 10px;
+}
+.pic img{
+    border-radius: 20px;
+}
+.place {
+    bottom: 8px;
+    left: 16px;
+    font-size: 20px;
+    color: wheat;
+    text-shadow: black 3px 3px 5px;
+    font-weight: 500; 
+    position: absolute;
+    font-family: 'write';
+}
+h6{
+    text-align: center;
+    font-family: 'write';
+}
+.tips a{
+    color: black; 
+    text-shadow: rgb(131, 47, 2, 0.9) 3px 3px 5px;
+    margin-bottom: 20px;
+}
+.why, h4{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.before{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 50px;
+
+}
+.before h5{
+    color: wheat;
+    margin-bottom: 10px;
+} 
+.before p{
+    color: wheat;
+    font-family: 'write';
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.foot{
+    text-align: center;
+    color: rgb(245, 222, 179, 0.5);
+    font-family: 'write';
+}
+.about, .faq, .contact{
+    width: 300px;
+}
+
+
+@media screen and (max-width: 800px){
+    .nav a {display: none;}
+    .navbar-brand{
+      margin-right: 230px;        
+   }
+   .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: rgb(131, 47, 2, 0.9);
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      font-size: 20px;
+      color: wheat;
+      text-shadow: black 3px 3px 5px;
+      text-align: center;
+    }
+    
+    .sidenav a:hover {
+      color:black;
+      text-shadow: rgb(131, 47, 2, 0.9) 3px 3px 5px;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      left: 25px;
+      font-size: 36px;
+      margin-left: 150px;
+      display: block;
+    }
+    header {margin-top: 180px;
+    }
+    .searchterm {
+        margin: 20px 0px 10px 0px;
+    }
+    .pictures, .festivals, .why{
+        display: grid;
+       justify-items: center;
+    }
+    
+    .pic img{
+        width: 600px;
+    }
+    .before{
+        display: grid;
+    }
+    .about, .faq, .contact{
+        margin-bottom: 50px;
+    }
+
+  }
