@@ -14,8 +14,9 @@
     background-image: url(../images/background.jpg);
     min-height: 42em;
 }
-.navbar-brand{
-   margin-right: 350px;
+.navbar{
+   display: flex;
+   justify-content: space-between;
 }
 .navbar-nav a{
     color: wheat;
@@ -125,7 +126,7 @@ h2 {
 }
 h6{
     text-align: center;
-    font-family: 'write';
+ 
 }
 .tips a{
     color: black; 
@@ -145,13 +146,13 @@ footer{
 
 }
 .before h5{
-    color: wheat;
+    color: white;
     margin-bottom: 10px;
 } 
 .before p{
-    color: wheat;
+    color: white;
     font-family: 'write';
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0;
 }
 
@@ -167,13 +168,14 @@ footer ul{
 .about, .faq, .contact{
     width: 300px;
 }
+.contact .button p{
+    font-size: 18px;
+}
 
 
 @media screen and (max-width: 800px){
     .nav a {display: none;}
-    .navbar-brand{
-      margin-right: 230px;        
-   }
+   
    .sidenav {
       height: 100%;
       width: 0;
@@ -216,7 +218,7 @@ footer ul{
     }
     
     .pic img{
-        width: 600px;
+        width: 100%;
     }
     .before{
         display: grid;
