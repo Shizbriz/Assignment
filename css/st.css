@@ -39,9 +39,7 @@
 a:hover{
     color: rgb(131, 47, 2, 0.9);
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
-  }
+
   .bar{
       color: wheat;
   }
@@ -177,9 +175,8 @@ footer ul{
     .nav a {display: none;}
    
    .sidenav {
-      height: 100%;
       width: 0;
-      position: fixed;
+      position: absolute;
       top: 70px;
       right: 0;
       background-color: rgb(131, 47, 2, 0.9);
@@ -199,14 +196,7 @@ footer ul{
       text-shadow: rgb(131, 47, 2, 0.9) 3px 3px 5px;
     }
     
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      left: 25px;
-      font-size: 36px;
-      margin-left: 150px;
-      display: block;
-    }
+   
     header {margin-top: 180px;
     }
     .searchterm {
