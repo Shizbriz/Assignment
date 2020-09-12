@@ -180,7 +180,7 @@ footer ul{
       height: 100%;
       width: 0;
       position: fixed;
-      top: 0;
+      top: 70px;
       right: 0;
       background-color: rgb(131, 47, 2, 0.9);
       transition: 0.5s;
@@ -228,3 +228,9 @@ footer ul{
     }
 
   }
+@media screen and (max-device-width: 400px){
+    header{margin-top: 60px;}
+    header h1{margin-bottom: 20px;}
+    .why{margin-top: 30px;}
+    .tips{display: grid; justify-content: center;}
+}
