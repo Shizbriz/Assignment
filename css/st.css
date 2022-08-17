@@ -152,7 +152,10 @@ footer ul{
     text-align: center;
     color: rgb(255, 255, 255, 0.5);
 }
-.about, .faq, .contact{
+.about{
+    width: 600px;
+}
+.faq, .contact{
     width: 300px;
 }
 .contact .button p{
