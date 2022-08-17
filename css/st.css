@@ -2,14 +2,7 @@
     font-family: 'big';
     src: url(../DenseLetters-nRgDO.otf);
 }
-@font-face{
-    font-family: 'curl';
-    src: url(../EnjelinaDemo-JRJBj.otf);
-}
-@font-face{
-    font-family: 'write';
-    src: url(../TheHeartOfEverythingDemo-KRdD.ttf);
-}
+
 .beginning{
     background-image: url(../images/background.jpg);
     min-height: 42em;
@@ -20,7 +13,6 @@
 }
 .navbar-nav a{
     color: wheat;
-    font-family: 'write';
     font-size: 20px;
     text-shadow: black 3px 3px 5px;
 }
@@ -120,8 +112,7 @@ h2 {
     text-shadow: black 3px 3px 5px;
     font-weight: 500; 
     position: absolute;
-    font-family: 'write';
-}
+    }
 h6{
     text-align: center;
  
@@ -149,7 +140,6 @@ footer{
 } 
 .before p{
     color: white;
-    font-family: 'write';
     font-size: 25px;
     margin-bottom: 0;
 }
@@ -161,7 +151,6 @@ footer ul{
 .foot{
     text-align: center;
     color: rgb(255, 255, 255, 0.5);
-    font-family: 'write';
 }
 .about, .faq, .contact{
     width: 300px;
